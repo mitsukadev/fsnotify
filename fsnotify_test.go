@@ -16,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fsnotify/fsnotify/internal"
+	"github.com/mitsukadev/fsnotify/internal"
 )
 
 // Set soft open file limit to the maximum; on e.g. OpenBSD it's 512/1024.
@@ -822,7 +822,7 @@ func BenchmarkAddRemove(b *testing.B) {
 	})
 }
 
-// Would panic on inotify: https://github.com/fsnotify/fsnotify/issues/616
+// Would panic on inotify: https://github.com/mitsukadev/fsnotify/issues/616
 func TestRemoveRace(t *testing.T) {
 	t.Parallel()
 

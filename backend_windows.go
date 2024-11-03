@@ -18,7 +18,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/fsnotify/fsnotify/internal"
+	"github.com/mitsukadev/fsnotify/internal"
 	"golang.org/x/sys/windows"
 )
 
