@@ -478,7 +478,7 @@ func withCreate() addOpt {
 	return func(opt *withOpts) { opt.sendCreate = true }
 }
 
-var enableRecurse = false
+var enableRecurse = true
 
 // Check if this path is recursive (ends with "/..." or "\..."), and return the
 // path with the /... stripped.
